@@ -1,3 +1,4 @@
+# Sets the default text editor
 export EDITOR="zed"
 
 # Open files with VSCode using `code <filename>`
