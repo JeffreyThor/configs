@@ -8,7 +8,10 @@ return {
     config = function()
         require("nvim-tree").setup {
           git = {
-             ignore = false,
+            ignore = false,
+          },
+          view = {
+            side = "right",
           },
           on_attach = function (bufnr)
             local api = require "nvim-tree.api"
